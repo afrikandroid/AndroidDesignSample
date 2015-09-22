@@ -7,6 +7,8 @@ import com.ads.BR;
 
 /**
  * Created by bah on 9/21/15.
+ * Uses {@link android.databinding.BaseObservable} to notify {@link android.databinding
+ * .Observable} when data properties change.
  */
 public class Country extends BaseObservable {
 
