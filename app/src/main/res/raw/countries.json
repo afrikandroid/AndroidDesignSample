@@ -1,0 +1,598 @@
+{
+  "countries": [
+    {
+      "country_id": "1",
+      "country_name_default": "Algeria",
+      "country_name": {
+        "en": "Algeria",
+        "fr": "Algérie"
+      },
+      "capital": "Algiers",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "2",
+      "country_name_default": "Angola",
+      "country_name": {
+        "en": "Angola",
+        "fr": "Angola"
+      },
+      "capital": "Luanda",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "3",
+      "country_name_default": "Benin",
+      "country_name": {
+        "en": "Benin",
+        "fr": "Bénin"
+      },
+      "capital": "Porto-Novo",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "4",
+      "country_name_default": "Botswana",
+      "country_name": {
+        "en": "Botswana",
+        "fr": "Botswana"
+      },
+      "capital": "Gaborone",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "5",
+      "country_name_default": "Burkina Faso",
+      "country_name": {
+        "en": "Burkina Faso",
+        "fr": "Burkina Faso"
+      },
+      "capital": "Ouagadougou",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "6",
+      "country_name_default": "Burundi",
+      "country_name": {
+        "en": "Burundi",
+        "fr": "Burundi"
+      },
+      "capital": "Bujumbura",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "7",
+      "country_name_default": "Cameroon",
+      "country_name": {
+        "en": "Cameroon",
+        "fr": "Cameroun"
+      },
+      "capital": "Yaounde",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "8",
+      "country_name_default": "Cape Verde",
+      "country_name": {
+        "en": "Cape Verde",
+        "fr": "Cap-Vert"
+      },
+      "capital": "Praia",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "9",
+      "country_name_default": "Central African Republic",
+      "country_name": {
+        "en": "Central African Republic",
+        "fr": "République Centre Africaine"
+      },
+      "capital": "Bangui",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "10",
+      "country_name_default": "Chad",
+      "country_name": {
+        "en": "Chad",
+        "fr": "Tchad"
+      },
+      "capital": "N'Djamena",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "11",
+      "country_name_default": "Comoros",
+      "country_name": {
+        "en": "Comoros",
+        "fr": "Comores"
+      },
+      "capital": "Moroni",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "12",
+      "country_name_default": "Democratic Republic of Congo",
+      "country_name": {
+        "en": "Democratic Republic of Congo",
+        "fr": "République Démocratique du Congo"
+      },
+      "capital": "Kinshasa",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "13",
+      "country_name_default": "Congo Republic",
+      "country_name": {
+        "en": "Congo Republic",
+        "fr": "Républic du Congo"
+      },
+      "capital": "Brazzaville",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "14",
+      "country_name_default": "Cote D'Ivoire",
+      "country_name": {
+        "en": "Cote D'Ivoire",
+        "fr": "Cote D'Ivoire"
+      },
+      "capital": "Yamoussoukro",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "15",
+      "country_name_default": "Djibouti",
+      "country_name": {
+        "en": "Djibouti",
+        "fr": "Djibouti"
+      },
+      "capital": "Djibouti",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "16",
+      "country_name_default": "Egypt",
+      "country_name": {
+        "en": "Egypt",
+        "fr": "Egypte"
+      },
+      "capital": "Cairo",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "17",
+      "country_name_default": "Equatorial Guinea",
+      "country_name": {
+        "en": "Equatorial Guinea",
+        "fr": "Guinée Équatoriale"
+      },
+      "capital": "Malabo",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "18",
+      "country_name_default": "Eritrea",
+      "country_name": {
+        "en": "Eritrea",
+        "fr": "Érythrée"
+      },
+      "capital": "Asmara",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "19",
+      "country_name_default": "Ethiopia",
+      "country_name": {
+        "en": "Ethiopia",
+        "fr": "Éthiopie"
+      },
+      "capital": "Addis Ababa",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "20",
+      "country_name_default": "Gabon",
+      "country_name": {
+        "en": "Gabon",
+        "fr": "Gabon"
+      },
+      "capital": "Libreville",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "21",
+      "country_name_default": "Gambia",
+      "country_name": {
+        "en": "Gambia",
+        "fr": "Gambie"
+      },
+      "capital": "Banjul",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "22",
+      "country_name_default": "Ghana",
+      "country_name": {
+        "en": "Ghana",
+        "fr": "Ghana"
+      },
+      "capital": "Accra",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "23",
+      "country_name_default": "Guinea",
+      "country_name": {
+        "en": "Guinea",
+        "fr": "Guinée"
+      },
+      "capital": "Conakry",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "24",
+      "country_name_default": "Guinea Bissau",
+      "country_name": {
+        "en": "Guinea Bissau",
+        "fr": "Guinée Bissau"
+      },
+      "capital": "Bissau",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "25",
+      "country_name_default": "Kenya",
+      "country_name": {
+        "en": "Kenya",
+        "fr": "Kenya"
+      },
+      "capital": "Niarobi",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "26",
+      "country_name_default": "Lesotho",
+      "country_name": {
+        "en": "Lesotho",
+        "fr": "Lésotho"
+      },
+      "capital": "Maseru",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "27",
+      "country_name_default": "Liberia",
+      "country_name": {
+        "en": "Liberia",
+        "fr": "Liberia"
+      },
+      "capital": "Monrovia",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "28",
+      "country_name_default": "Libya",
+      "country_name": {
+        "en": "Libya",
+        "fr": "Libye"
+      },
+      "capital": "Tripoli",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "29",
+      "country_name_default": "Madagascar",
+      "country_name": {
+        "en": "Madagascar",
+        "fr": "Madagascar"
+      },
+      "capital": "Antananarivo",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "30",
+      "country_name_default": "Malawi",
+      "country_name": {
+        "en": "Malawi",
+        "fr": "Malawi"
+      },
+      "capital": "Lilongwe",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "31",
+      "country_name_default": "Mali",
+      "country_name": {
+        "en": "Mali",
+        "fr": "Mali"
+      },
+      "capital": "Bamako",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "32",
+      "country_name_default": "Mauritania",
+      "country_name": {
+        "en": "Mauritania",
+        "fr": "Mauritanie"
+      },
+      "capital": "Nouakchott",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "33",
+      "country_name_default": "Mauritius",
+      "country_name": {
+        "en": "Mauritius",
+        "fr": "Maurice"
+      },
+      "capital": "Port Louis",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "34",
+      "country_name_default": "Morocco",
+      "country_name": {
+        "en": "Morocco",
+        "fr": "Maroc"
+      },
+      "capital": "Rabat",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "35",
+      "country_name_default": "Mozambique",
+      "country_name": {
+        "en": "Mozambique",
+        "fr": "Mozambique"
+      },
+      "capital": "Maputo",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "36",
+      "country_name_default": "Namibia",
+      "country_name": {
+        "en": "Namibia",
+        "fr": "Namibie"
+      },
+      "capital": "Windhoek",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "37",
+      "country_name_default": "Niger",
+      "country_name": {
+        "en": "Niger",
+        "fr": "Niger"
+      },
+      "capital": "Niamey",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "38",
+      "country_name_default": "Nigeria",
+      "country_name": {
+        "en": "Nigeria",
+        "fr": "Nigeria"
+      },
+      "capital": "Abuja",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "39",
+      "country_name_default": "Rwanda",
+      "country_name": {
+        "en": "Rwanda",
+        "fr": "Rwanda"
+      },
+      "capital": "Kigali",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "40",
+      "country_name_default": "Sao Tome And Principe",
+      "country_name": {
+        "en": "Sao Tome And Principe",
+        "fr": "São Tomé and Príncipe"
+      },
+      "capital": "São Tomé",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "41",
+      "country_name_default": "Senegal",
+      "country_name": {
+        "en": "Senegal",
+        "fr": "Senegal"
+      },
+      "capital": "Dakar",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "42",
+      "country_name_default": "Seychelles",
+      "country_name": {
+        "en": "Seychelles",
+        "fr": "Seychelles"
+      },
+      "capital": "Victoria",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "43",
+      "country_name_default": "Sierra Leone",
+      "country_name": {
+        "en": "Sierra Leone",
+        "fr": "Sierra Leone"
+      },
+      "capital": "Freetown",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "44",
+      "country_name_default": "Somalia",
+      "country_name": {
+        "en": "Somalia",
+        "fr": "Somalie"
+      },
+      "capital": "Mogadishu",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "45",
+      "country_name_default": "South Africa",
+      "country_name": {
+        "en": "South Africa",
+        "fr": "Afrique Du Sud"
+      },
+      "capital": "Pretoria",
+      "country_map_url": "",
+      "is_active": true
+    },
+    {
+      "country_id": "46",
+      "country_name_default": "South Sudan",
+      "country_name": {
+        "en": "South Sudan",
+        "fr": "Soudan du Sud"
+      },
+      "capital": "Juba",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "47",
+      "country_name_default": "Sudan",
+      "country_name": {
+        "en": "Sudan",
+        "fr": "Soudan"
+      },
+      "capital": "Khartoum",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "48",
+      "country_name_default": "Swaziland",
+      "country_name": {
+        "en": "Swaziland",
+        "fr": "Swaziland"
+      },
+      "capital": "Mbabane",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "49",
+      "country_name_default": "Tanzania",
+      "country_name": {
+        "en": "Tanzania",
+        "fr": "Tanzanie"
+      },
+      "capital": "Dar es Salaam",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "50",
+      "country_name_default": "Togo",
+      "country_name": {
+        "en": "Togo",
+        "fr": "Togo"
+      },
+      "capital": "Lomé",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "51",
+      "country_name_default": "Tunisia",
+      "country_name": {
+        "en": "Tunisia",
+        "fr": "Tunisie"
+      },
+      "capital": "Tunis",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "52",
+      "country_name_default": "Uganda",
+      "country_name": {
+        "en": "Uganda",
+        "fr": "Uganda"
+      },
+      "capital": "Kampala",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "53",
+      "country_name_default": "Zambia",
+      "country_name": {
+        "en": "Zambia",
+        "fr": "Zambie"
+      },
+      "capital": "Lusaka",
+      "country_map_url": "",
+      "is_active": false
+    },
+    {
+      "country_id": "54",
+      "country_name_default": "Zimbabwe",
+      "country_name": {
+        "en": "Zimbabwe",
+        "fr": "Zimbabwe"
+      },
+      "capital": "Harare",
+      "country_map_url": "",
+      "is_active": false
+    }
+  ]
+}
