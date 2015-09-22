@@ -5,7 +5,7 @@ This sample app aims at showcasing:
 * Latest features of the Design Library.
 
 
-#### The App uses the following libraries:  
+#### The App also uses the following libraries:  
 1. [Dagger2](https://github.com/google/dagger).
 2. [ButterKnife](http://jakewharton.github.io/butterknife/).
 3. [Mockito](http://mockito.org/).
