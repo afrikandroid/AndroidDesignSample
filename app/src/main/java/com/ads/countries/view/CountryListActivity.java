@@ -18,7 +18,7 @@ public class CountryListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_countries_list);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setUpToolbar();
 
         if(savedInstanceState == null){
             Fragment fragment = CountryListFragment.newInstance();
@@ -27,6 +27,9 @@ public class CountryListActivity extends AppCompatActivity {
         }
     }
 
+    private void setUpToolbar(){
+        toolbar.setTitle("Countries");
+    }
     private int getMainContentViewId(){
         return R.id.main_container;
     }
