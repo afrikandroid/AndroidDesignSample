@@ -2,6 +2,7 @@
 This sample app aims at showcasing:
 * MVP design pattern.
 * Data Binding Basic Implementation.
+* Butter Knife Example
 * Latest features of the Design Library.
 
 
