@@ -70,7 +70,6 @@ public class CountryListInteractorImpl implements CountryListInteractor {
 
                 CountryModelList countryModelList = new CountryModelList(result);
                 countryList = countryModelList.getCountryList();
-                Log.e(TAG, "countryList size ... " + countryList.size());
             } catch (JSONException e) {
                 Log.e(TAG, e.getMessage());
             } finally {
