@@ -9,8 +9,5 @@ This sample app aims at showcasing:
 #### The App also uses the following libraries:  
 1. [Dagger2](https://github.com/google/dagger).
 2. [ButterKnife](http://jakewharton.github.io/butterknife/).
-3. [Mockito](http://mockito.org/).
-4. [Robolectric](http://robolectric.org/).
-5. [AssertJ-Android](https://github.com/square/assertj-android).
 
  
