@@ -40,11 +40,5 @@ dependencies {
     compile 'com.android.support:support-annotations:23.0.1'
     compile 'com.android.support:design:23.0.1'
 
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.apache.maven:maven-ant-tasks:2.1.3'
-    testCompile 'org.robolectric:robolectric:3.0'
-    testCompile 'org.robolectric:shadows-support-v4:3.0'
-    testCompile 'org.mockito:mockito-core:2.0.26-beta'
-    testCompile('com.squareup.assertj:assertj-android:1.1.0')
 
 }

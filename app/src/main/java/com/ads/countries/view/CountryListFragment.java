@@ -3,6 +3,7 @@ package com.ads.countries.view;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.annotation.UiThread;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -42,7 +43,6 @@ public class CountryListFragment extends Fragment implements CountryListView {
     @Bind(R.id.progress)
     View loadingView;
 
-    private Handler handler;
     private RecyclerView.LayoutManager layoutManager;
     private CountryListAdapter adapter;
     private List<Country> countryList = new ArrayList<>();
@@ -58,7 +58,6 @@ public class CountryListFragment extends Fragment implements CountryListView {
 
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        handler = new Handler();
     }
 
     @Override
@@ -77,7 +76,7 @@ public class CountryListFragment extends Fragment implements CountryListView {
     }
 
     @Override
-    public void onDestroyView(){
+    public void onDestroyView() {
         super.onDestroyView();
         ButterKnife.unbind(this);
     }
@@ -94,62 +93,45 @@ public class CountryListFragment extends Fragment implements CountryListView {
                 CountryListModule(this)).build().inject(this);
     }
 
+    @UiThread
     @Override
     public void updateUIData(final List<Country> countryList) {
         this.countryList = countryList;
         showContentView();
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                adapter.onBindAdapterData(countryList);
-            }
-        });
+        adapter.onBindAdapterData(countryList);
     }
 
+    @UiThread
     @Override
     public void showLoadingView() {
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                loadingView.setVisibility(View.VISIBLE);
-            }
-        });
+        loadingView.setVisibility(View.VISIBLE);
+
     }
 
+    @UiThread
     @Override
     public void hideLoadingView() {
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                loadingView.setVisibility(View.GONE);
-            }
-        });
+        loadingView.setVisibility(View.GONE);
+
     }
 
+    @UiThread
     @Override
     public void showNoDataView() {
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                recyclerView.setVisibility(View.GONE);
-                errorView.setVisibility(View.GONE);
-                emptyView.setVisibility(View.VISIBLE);
-            }
-        });
-    }
+        recyclerView.setVisibility(View.GONE);
+        errorView.setVisibility(View.GONE);
+        emptyView.setVisibility(View.VISIBLE);
 
+    }
+    @UiThread
     @Override
     public void showErrorView() {
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                recyclerView.setVisibility(View.GONE);
-                emptyView.setVisibility(View.GONE);
-                errorView.setVisibility(View.VISIBLE);
-            }
-        });
-    }
+        recyclerView.setVisibility(View.GONE);
+        emptyView.setVisibility(View.GONE);
+        errorView.setVisibility(View.VISIBLE);
 
+    }
+    @UiThread
     @Override
     public void showContentView() {
         if (countryList.size() == 0) {
@@ -159,14 +141,11 @@ public class CountryListFragment extends Fragment implements CountryListView {
         }
     }
 
+    @UiThread
     protected void showRecyclerView() {
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                recyclerView.setVisibility(View.VISIBLE);
-                errorView.setVisibility(View.GONE);
-                emptyView.setVisibility(View.GONE);
-            }
-        });
+        recyclerView.setVisibility(View.VISIBLE);
+        errorView.setVisibility(View.GONE);
+        emptyView.setVisibility(View.GONE);
+
     }
 }
